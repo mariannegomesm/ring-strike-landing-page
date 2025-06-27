@@ -8,12 +8,12 @@ import Logo from "../../../public/logo-circle.svg"
 
 const Header = ({ activeSection }: { activeSection: string }) => {
     return (
-        <header className="fixed top-0 left-0 right-0 z-50 flex justify-between px-[82px] py-[18px] shadow-md bg-white">
+        <header className="fixed top-0 left-0 right-0 z-50 flex justify-between px-[24px] lg:px-[82px] py-[18px] shadow-md bg-white">
             <div className="flex">
                 <Image src={Logo} alt="Logo" className="mr-[12px]" />
                 <div className="flex flex-col">
-                    <label className="font-medium">Ring Strike</label>
-                    <label className="text-[12px] text-[#BC090D]">Muay Thai</label>
+                    <label className="font-medium whitespace-nowrap">Ring Strike</label>
+                    <label className="text-[12px] text-[#BC090D] whitespace-nowrap">Muay Thai</label>
                 </div>
             </div>
             <div className="flex items-center gap-[72px]">
