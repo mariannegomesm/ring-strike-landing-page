@@ -30,17 +30,17 @@ const Home = () => {
           priority
         />
         <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-40 text-white px-4 text-center">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">
+          <h1 className="text-[20px] md:text-[32px] lg:text-[42px] font-bold lg:mb-2">
             Equipe Profissional de Muay Thai e MMA
           </h1>
-          <h2 className="text-xl md:text-2xl font-light">
+          <h2 className="text-[14px] md:text-[20px] ml:text-[24px] font-light">
             Chancelada pela Federação Cearense de Muay Thai-FCMT
           </h2>
           <div className="absolute bottom-12 left-0 right-0 flex justify-center items-center text-white px-4">
             <span className="material-symbols-outlined mr-2 text-2xl">
               globe
             </span>
-            <span className="text-lg md:text-xl">
+            <span className="text-[14px] md:text-[16px] lg:text-[16px] md:text-xl">
               Fortaleza – CE
             </span>
           </div>
