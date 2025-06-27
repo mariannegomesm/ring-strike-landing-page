@@ -77,7 +77,7 @@ const Home = () => {
       </section>
       <section id="aulas-e-treinamentos" className="min-h-[600px] px-10 py-20 text-center">
         <label className="font-bold text-[20px] md:text-[28px] lg:text-[36px]">Aulas e treinamentos</label>
-        <p className="font-light ">Conheça as diferentes <label className="font-bold text-[#BC090D]">modalidades de treino</label> que proporcionamos</p>
+        <p className="font-light text-[12px] md:text-[14px] lg:text-[16px]">Conheça as diferentes <label className="font-bold text-[#BC090D]">modalidades de treino</label> que proporcionamos</p>
 
         <div className="flex flex-col lg:flex-row gap-[24px] px-[10%] mt-[40px]">
           {cardsOptions.map((item, index) => (
@@ -95,7 +95,7 @@ const Home = () => {
       </section>
       <section id="instrutores" className="min-h-[600px] px-10 py-20 text-center">
         <label className="font-bold text-[20px] md:text-[28px] lg:text-[36px]">Instrutores</label>
-        <p className="font-light ">Conheça o <label className="font-bold text-[#BC090D]">nosso time</label> de instrutores e saiba <label className="font-bold text-[#BC090D]">onde atuam</label></p>
+        <p className="font-light text-[12px] md:text-[14px] lg:text-[16px]">Conheça o <label className="font-bold text-[#BC090D]">nosso time</label> de instrutores e saiba <label className="font-bold text-[#BC090D]">onde atuam</label></p>
 
         <div className="flex flex-col lg:flex-row gap-[24px] px-[10%] mt-[40px]">
           {instructorsOptions.map((item, index) => (
@@ -132,7 +132,7 @@ const Home = () => {
 
       <section id="galeria" className="min-h-[600px] px-10 py-20 text-center">
         <label className="font-bold text-[20px] md:text-[28px] lg:text-[36px]">Galeria</label>
-        <p className="font-light">
+        <p className="font-light text-[12px] md:text-[14px] lg:text-[16px]">
           Nos <label className="font-bold text-[#BC090D]">conheça</label> um pouco mais por meio das{" "}
           <label className="font-bold text-[#BC090D]">nossas fotos</label>
         </p>
@@ -150,7 +150,7 @@ const Home = () => {
 
         <div className="flex flex-col items-center px-4 text-center pt-40 pb-40">
           <label className="font-bold text-[20px] md:text-[28px] lg:text-[36px]">Nossas unidades</label>
-          <p className="font-light mt-4 max-w-2xl">
+          <p className="font-light lg:mt-4 max-w-2xl text-[12px] md:text-[14px] lg:text-[16px]">
             Encontre a <label className="font-bold text-[#BC090D]">unidade mais próxima</label> de você e{" "}
             <label className="font-bold text-[#BC090D]">venha treinar</label> conosco!
           </p>
