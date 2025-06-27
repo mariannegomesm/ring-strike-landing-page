@@ -49,8 +49,8 @@ const Home = () => {
 
       <section id="quem-somos" className="min-h-[600px] flex flex-col lg:flex-row items-center px-[10%] py-[40px]">
         <div className="w-full lg:w-[50%] px-[5%]">
-          <label className="font-bold text-[36px]">Quem somos?</label>
-          <p className="text-justify mt-[16px] font-light">
+          <label className="font-bold text-[20px] md:text-[28px] lg:text-[36px]">Quem somos?</label>
+          <p className="text-justify text-[12px] md:text-[14px] lg:text-[16px] mt-[16px] font-light">
             A <label className="font-bold text-[#BC090D]">Ring Strike</label> é uma equipe profissional de <label className="font-bold text-[#BC090D]">Muay Thai</label> e <label className="font-bold text-[#BC090D]">MMA</label>, comprometida em oferecer o mais alto padrão de treinamento e competição. Nossa missão é transformar apaixonados por artes marciais em verdadeiros campeões.
             <br />
             <br />
@@ -67,8 +67,8 @@ const Home = () => {
           <Image src={PhotoSection2} alt="Foto section 1" />
         </div>
         <div className="w-full lg:w-[50%] px-[5%]">
-          <label className="font-bold text-[36px]">Como surgimos?</label>
-          <p className="text-justify mt-[16px] font-light">
+          <label className="font-bold text-[20px] md:text-[28px] lg:text-[36px]">Como surgimos?</label>
+          <p className="text-justify text-[12px] md:text-[14px] lg:text-[16px] mt-[16px] font-light">
             A Ring Strike foi reaberta em Fortaleza, Ceará, por <label className="font-bold">Guilherme Soldado</label>, Grau Preto de Muay Thai, Head Coach da equipe e Personal Fighter, e por <label className="font-bold">Elinardo Goiabinha</label>, campeão brasileiro e cearense de Muay Thai.
             <br />
             <br />
@@ -76,7 +76,7 @@ const Home = () => {
         </div>
       </section>
       <section id="aulas-e-treinamentos" className="min-h-[600px] px-10 py-20 text-center">
-        <label className="font-bold text-[36px]">Aulas e treinamentos</label>
+        <label className="font-bold text-[20px] md:text-[28px] lg:text-[36px]">Aulas e treinamentos</label>
         <p className="font-light ">Conheça as diferentes <label className="font-bold text-[#BC090D]">modalidades de treino</label> que proporcionamos</p>
 
         <div className="flex flex-col lg:flex-row gap-[24px] px-[10%] mt-[40px]">
@@ -94,7 +94,7 @@ const Home = () => {
         </div>
       </section>
       <section id="instrutores" className="min-h-[600px] px-10 py-20 text-center">
-        <label className="font-bold text-[36px]">Instrutores</label>
+        <label className="font-bold text-[20px] md:text-[28px] lg:text-[36px]">Instrutores</label>
         <p className="font-light ">Conheça o <label className="font-bold text-[#BC090D]">nosso time</label> de instrutores e saiba <label className="font-bold text-[#BC090D]">onde atuam</label></p>
 
         <div className="flex flex-col lg:flex-row gap-[24px] px-[10%] mt-[40px]">
@@ -119,8 +119,8 @@ const Home = () => {
         </div>
         <div className="w-full lg:w-[50%] px-[5%]">
 
-          <label className="font-bold text-[36px]">Nossos eventos</label>
-          <p className="text-justify mt-[16px] font-light">
+          <label className="font-bold text-[20px] md:text-[28px] lg:text-[36px]">Nossos eventos</label>
+          <p className="text-justify text-[12px] md:text-[14px] lg:text-[16px] mt-[16px] font-light">
             A <label className="font-bold">Ring Strike</label> valoriza profundamente os eventos de <label className="font-bold">Muay Thai</label>, realizando frequentemente aulões temáticos que oferecem uma excelente oportunidade para apresentar o esporte à <label className="font-bold">comunidade</label>.
             <br />
             <br />
@@ -131,7 +131,7 @@ const Home = () => {
       </section>
 
       <section id="galeria" className="min-h-[600px] px-10 py-20 text-center">
-        <label className="font-bold text-[36px]">Galeria</label>
+        <label className="font-bold text-[20px] md:text-[28px] lg:text-[36px]">Galeria</label>
         <p className="font-light">
           Nos <label className="font-bold text-[#BC090D]">conheça</label> um pouco mais por meio das{" "}
           <label className="font-bold text-[#BC090D]">nossas fotos</label>
@@ -149,7 +149,7 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col items-center px-4 text-center pt-40 pb-40">
-          <label className="font-bold text-[36px]">Nossas unidades</label>
+          <label className="font-bold text-[20px] md:text-[28px] lg:text-[36px]">Nossas unidades</label>
           <p className="font-light mt-4 max-w-2xl">
             Encontre a <label className="font-bold text-[#BC090D]">unidade mais próxima</label> de você e{" "}
             <label className="font-bold text-[#BC090D]">venha treinar</label> conosco!
