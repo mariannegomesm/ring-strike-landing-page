@@ -30,7 +30,7 @@ const Home = () => {
           priority
         />
         <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-40 text-white px-4 text-center">
-          <h1 className="text-[20px] md:text-[32px] lg:text-[42px] font-bold lg:mb-2">
+          <h1 className="text-[16px] md:text-[32px] lg:text-[42px] font-bold lg:mb-2">
             Equipe Profissional de Muay Thai e MMA
           </h1>
           <h2 className="text-[14px] md:text-[20px] ml:text-[24px] font-light">
@@ -40,7 +40,7 @@ const Home = () => {
             <span className="material-symbols-outlined mr-2 text-2xl">
               globe
             </span>
-            <span className="text-[14px] md:text-[16px] lg:text-[16px] md:text-xl">
+            <span className="text-[12px] md:text-[16px] lg:text-[16px] md:text-xl">
               Fortaleza – CE
             </span>
           </div>
