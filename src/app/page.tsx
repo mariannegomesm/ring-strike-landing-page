@@ -174,7 +174,7 @@ const Home = () => {
       </section>
 
       <footer className="bg-[#960407] text-white text-center py-[12px] mt-auto">
-        <label className="text-[14px] font-light">Desenvolvido por @mariannegomesm</label>
+        <label className="text-[12px] md:lg:text-[14px] font-light">Desenvolvido por @mariannegomesm</label>
       </footer>
     </main>
   );
